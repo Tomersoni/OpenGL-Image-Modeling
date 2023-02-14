@@ -1,0 +1,8 @@
+﻿  lesson34.cpp
+c:\opengl projects\lesson34\lesson34\lesson34\lesson34.cpp(368): warning C4838: conversion from 'int' to 'BYTE' requires a narrowing conversion
+lesson34.obj : error LNK2019: unresolved external symbol "void __cdecl cv::error(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,char const *,int)" (?error@cv@@YAXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD1H@Z) referenced in function "public: class cv::Vec<unsigned char,3> & __thiscall cv::Mat::at<class cv::Vec<unsigned char,3> >(int,int)" (??$at@V?$Vec@E$02@cv@@@Mat@cv@@QAEAAV?$Vec@E$02@1@HH@Z)
+lesson34.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@QAE@ABV01@@Z) referenced in function "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ)
+lesson34.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) referenced in function "void __cdecl `dynamic atexit destructor for 'g_HeightMap''(void)" (??__Fg_HeightMap@@YAXXZ)
+lesson34.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) referenced in function "void __cdecl `dynamic initializer for 'g_HeightMap''(void)" (??__Eg_HeightMap@@YAXXZ)
+c:\CPP Libs\opencv\build\x64\vc15\lib\opencv_world460d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\openGL Projects\Lesson34\lesson34\Debug\lesson34.exe : fatal error LNK1120: 4 unresolved externals
